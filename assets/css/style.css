@@ -35,6 +35,10 @@ p {
 }
 
 .cover-photo {
+    height: 800px;
+    width: 100%;
     margin-bottom: 25px;
-    background-image: ;
+    background-image: url("../images/Graduation\ Headshot.jpg");
+    background-size: cover;
+    background-position: center;
 }
