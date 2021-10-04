@@ -42,3 +42,36 @@ p {
     background-size: cover;
     background-position: center;
 }
+.container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: ;
+}
+
+.work img {
+    border-style: solid;
+    border-width: 1px;
+    padding: 02px;
+    flex: 0 0 100px;
+    margin: 05px;
+    width: auto;
+    max-width: 800px;
+}
+
+.work img:hover {
+    opacity: 0.5;
+  }
+
+.contact ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-decoration: underline;
+}
